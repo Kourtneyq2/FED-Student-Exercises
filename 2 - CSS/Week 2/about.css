@@ -1,0 +1,19 @@
+section{
+    background-color: hsla(0, 100%, 50%, 0.5);
+    height: calc(100vh - 60px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section > h1{
+    color: #ffffff;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 4em;
+}
+
+@media screen and (min-width: 700px){
+    section{
+        height: calc(100vh - 115px);
+    }
+}
