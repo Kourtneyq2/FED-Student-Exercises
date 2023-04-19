@@ -1,0 +1,6 @@
+const blue = "Hello, World!"
+console.log(blue)
+
+const numberOne = 2
+const numberTwo = 2
+console.log(numberOne+numberTwo)
